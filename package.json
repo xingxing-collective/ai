@@ -1,0 +1,27 @@
+{
+  "name": "ai",
+  "version": "0.1.0",
+  "description": "xingxing's AI",
+  "type": "module",
+  "packageManager": "pnpm@9.12.3",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "preview": "nuxi preview",
+    "prepare": "nuxi prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "typecheck": "nuxi typecheck",
+    "prepare:husky": "husky"
+  },
+  "dependencies": {
+    "vue": "^3.5.12",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "husky": "^9.1.6",
+    "nuxt": "^3.13.2",
+    "vue-tsc": "^2.1.10"
+  },
+  "license": "MIT"
+}

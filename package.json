@@ -19,6 +19,12 @@
     "vue-router": "^4.4.5"
   },
   "devDependencies": {
+    "@vueuse/core": "^11.1.0",
+    "@nuxt/eslint": "^0.6.1",
+    "@nuxt/image": "^1.8.1",
+    "@nuxt/ui": "^2.18.7",    
+    "@nuxtjs/i18n": "^8.5.5",    
+    "@vueuse/nuxt": "^11.1.0",
     "husky": "^9.1.6",
     "nuxt": "^3.13.2",
     "vue-tsc": "^2.1.10"

@@ -1,0 +1,8 @@
+:root{
+  --white:#fff
+}
+
+html{
+  --text-primary:13 13 13;
+  --main-surface-primary:var(--white);
+}

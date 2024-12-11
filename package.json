@@ -5,13 +5,13 @@
   "type": "module",
   "packageManager": "pnpm@9.12.3",
   "scripts": {
-    "dev": "nuxi dev",
-    "build": "nuxi build",
-    "preview": "nuxi preview",
-    "prepare": "nuxi prepare",
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "prepare": "nuxt prepare",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "typecheck": "nuxi typecheck",
+    "typecheck": "nuxt typecheck",
     "prepare:husky": "husky"
   },
   "dependencies": {
@@ -19,15 +19,16 @@
     "vue-router": "^4.4.5"
   },
   "devDependencies": {
-    "@vueuse/core": "^11.1.0",
     "@nuxt/eslint": "^0.6.1",
     "@nuxt/image": "^1.8.1",
-    "@nuxt/ui": "^2.18.7",    
-    "@nuxtjs/i18n": "^8.5.5",    
+    "@nuxt/ui": "^2.18.7",
+    "@nuxtjs/i18n": "^8.5.5",
+    "@vueuse/core": "^11.1.0",
     "@vueuse/nuxt": "^11.1.0",
     "husky": "^9.1.6",
     "nuxt": "^3.13.2",
-    "vue-tsc": "^2.1.10"
+    "typescript": "5.6.3",
+    "vue-tsc": "2.1.10"
   },
   "license": "MIT"
 }
